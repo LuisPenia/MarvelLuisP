@@ -1,0 +1,239 @@
+
+56991@LAPTOP-ARM8E4IF MINGW64 ~/OneDrive - TKS Ingeniería y Proyectos SPA/Escritorio/introInf1erParcorio/introInf1erParc
+$ mkdir Marvel
+
+56991@LAPTOP-ARM8E4IF MINGW64 ~/OneDrive - TKS Ingeniería y Proyectos SPA/Escritorio/introInf1erParc
+$ ls
+Marvel/
+
+56991@LAPTOP-ARM8E4IF MINGW64 ~/OneDrive - TKS Ingeniería y Proyectos SPA/Escritorio/introInf1erParc
+$ mkdir Ironman Spiderman "Capitan America" Thor Wanda
+
+56991@LAPTOP-ARM8E4IF MINGW64 ~/OneDrive - TKS Ingeniería y Proyectos SPA/Escritorio/introInf1erParc
+$ ls
+'Capitan America'/   Ironman/   Marvel/   Spiderman/   Thor/   Wanda/
+
+56991@LAPTOP-ARM8E4IF MINGW64 ~/OneDrive - TKS Ingeniería y Proyectos SPA/Escritorio/introInf1erParc
+$ touch Ironman/"Tony Stark"
+
+56991@LAPTOP-ARM8E4IF MINGW64 ~/OneDrive - TKS Ingeniería y Proyectos SPA/Escritorio/introInf1erParc
+$ ls -R
+.:
+'Capitan America'/   Ironman/   Marvel/   Spiderman/   Thor/   Wanda/
+
+'./Capitan America':
+
+./Ironman:
+'Tony Stark'
+
+./Marvel:
+
+./Spiderman:
+
+./Thor:
+
+./Wanda:
+
+56991@LAPTOP-ARM8E4IF MINGW64 ~/OneDrive - TKS Ingeniería y Proyectos SPA/Escritorio/introInf1erParc
+$ touch Spiderman/"Peter Parker" Wanda/Maximoff.txt
+
+56991@LAPTOP-ARM8E4IF MINGW64 ~/OneDrive - TKS Ingeniería y Proyectos SPA/Escritorio/introInf1erParc
+$ ls -R
+.:
+'Capitan America'/   Ironman/   Marvel/   Spiderman/   Thor/   Wanda/
+
+'./Capitan America':
+
+./Ironman:
+'Tony Stark'
+
+./Marvel:
+
+./Spiderman:
+'Peter Parker'
+
+./Thor:
+
+./Wanda:
+Maximoff.txt
+
+56991@LAPTOP-ARM8E4IF MINGW64 ~/OneDrive - TKS Ingeniería y Proyectos SPA/Escritorio/introInf1erParc
+$ mkdir MarvelII/cp01 MarvelII/cp02
+mkdir: cannot create directory 'MarvelII/cp01': No such file or directory
+mkdir: cannot create directory 'MarvelII/cp02': No such file or directory       
+
+56991@LAPTOP-ARM8E4IF MINGW64 ~/OneDrive - TKS Ingeniería y Proyectos SPA/Escritorio/introInf1erParc
+$ mkdir MarvelII/cp01
+mkdir: cannot create directory 'MarvelII/cp01': No such file or directory
+
+56991@LAPTOP-ARM8E4IF MINGW64 ~/OneDrive - TKS Ingeniería y Proyectos SPA/Escritorio/introInf1erParc
+$ mkdir MarvelII
+
+56991@LAPTOP-ARM8E4IF MINGW64 ~/OneDrive - TKS Ingeniería y Proyectos SPA/Escritorio/introInf1erParc
+$ ls -R
+.:
+'Capitan America'/   Marvel/     Spiderman/   Wanda/
+ Ironman/            MarvelII/   Thor/
+
+'./Capitan America':
+
+./Ironman:
+'Tony Stark'
+
+./Marvel:
+
+./MarvelII:
+
+./Spiderman:
+'Peter Parker'
+
+./Thor:
+
+./Wanda:
+Maximoff.txt
+
+56991@LAPTOP-ARM8E4IF MINGW64 ~/OneDrive - TKS Ingeniería y Proyectos SPA/Escritorio/introInf1erParc
+$ dir MArvel
+
+56991@LAPTOP-ARM8E4IF MINGW64 ~/OneDrive - TKS Ingeniería y Proyectos SPA/Escritorio/introInf1erParc
+$ cd marvel
+
+56991@LAPTOP-ARM8E4IF MINGW64 ~/OneDrive - TKS Ingeniería y Proyectos SPA/Escritorio/introInf1erParc/marvel
+$ mkdir Ironman Spiderman "Capitan America" Thor Wanda
+
+56991@LAPTOP-ARM8E4IF MINGW64 ~/OneDrive - TKS Ingeniería y Proyectos SPA/Escritorio/introInf1erParc/marvel
+$ le -R
+bash: le: command not found
+
+56991@LAPTOP-ARM8E4IF MINGW64 ~/OneDrive - TKS Ingeniería y Proyectos SPA/Escritorio/introInf1erParc/marvel
+$ ls -R
+.:
+'Capitan America'/   Ironman/   Spiderman/   Thor/   Wanda/
+
+'./Capitan America':
+
+./Ironman:
+
+./Spiderman:
+
+./Thor:
+
+./Wanda:
+
+56991@LAPTOP-ARM8E4IF MINGW64 ~/OneDrive - TKS Ingeniería y Proyectos SPA/Escritorio/introInf1erParc/marvel
+$ touch Spiderman/"Peter Parker" Wanda/Maximoff.txt
+
+56991@LAPTOP-ARM8E4IF MINGW64 ~/OneDrive - TKS Ingeniería y Proyectos SPA/Escritorio/introInf1erParc/marvel
+$ touch Ironman/"Tony Stark"
+
+56991@LAPTOP-ARM8E4IF MINGW64 ~/OneDrive - TKS Ingeniería y Proyectos SPA/Escritorio/introInf1erParc/marvel
+$ ls -R
+.:
+'Capitan America'/   Ironman/   Spiderman/   Thor/   Wanda/
+
+'./Capitan America':
+
+./Ironman:
+'Tony Stark'
+
+./Spiderman:
+'Peter Parker'
+
+./Thor:
+
+./Wanda:
+Maximoff.txt
+
+56991@LAPTOP-ARM8E4IF MINGW64 ~/OneDrive - TKS Ingeniería y Proyectos SPA/Escritorio/introInf1erParc/marvel
+$ ls -Ra
+.:
+ ./   ../  'Capitan America'/   Ironman/   Spiderman/   Thor/   Wanda/
+
+'./Capitan America':
+./  ../
+
+./Ironman:
+ ./   ../  'Tony Stark'
+
+./Spiderman:
+ ./   ../  'Peter Parker'
+
+./Thor:
+./  ../
+
+./Wanda:
+./  ../  Maximoff.txt
+
+56991@LAPTOP-ARM8E4IF MINGW64 ~/OneDrive - TKS Ingeniería y Proyectos SPA/Escritorio/introInf1erParc/marvel
+$ rm Thor
+rm: cannot remove 'Thor': Is a directory
+
+56991@LAPTOP-ARM8E4IF MINGW64 ~/OneDrive - TKS Ingeniería y Proyectos SPA/Escritorio/introInf1erParc/marvel
+$ rm -r Thor
+
+56991@LAPTOP-ARM8E4IF MINGW64 ~/OneDrive - TKS Ingeniería y Proyectos SPA/Escritorio/introInf1erParc/marvel
+$ ls -R
+.:
+'Capitan America'/   Ironman/   Spiderman/   Wanda/
+
+'./Capitan America':
+
+./Ironman:
+'Tony Stark'
+
+./Spiderman:
+'Peter Parker'
+
+./Wanda:
+Maximoff.txt
+
+56991@LAPTOP-ARM8E4IF MINGW64 ~/OneDrive - TKS Ingeniería y Proyectos SPA/Escritorio/introInf1erParc/marvel
+$ mv Wanda/ "Bruja Escarlata"/
+
+56991@LAPTOP-ARM8E4IF MINGW64 ~/OneDrive - TKS Ingeniería y Proyectos SPA/Escritorio/introInf1erParc/marvel
+$ ls -R
+.:
+'Bruja Escarlata'/  'Capitan America'/   Ironman/   Spiderman/
+
+'./Bruja Escarlata':
+Maximoff.txt
+
+'./Capitan America':
+
+./Ironman:
+'Tony Stark'
+
+./Spiderman:
+'Peter Parker'
+
+56991@LAPTOP-ARM8E4IF MINGW64 ~/OneDrive - TKS Ingeniería y Proyectos SPA/Escritorio/introInf1erParc/marvel
+$ git init
+Initialized empty Git repository in C:/Users/56991/OneDrive - TKS Ingeniería y Proyectos SPA/Escritorio/introInf1erParc/Marvel/.git/
+
+56991@LAPTOP-ARM8E4IF MINGW64 ~/OneDrive - TKS Ingeniería y Proyectos SPA/Escritorio/introInf1erParc/marvel (main)
+$ git add .
+
+56991@LAPTOP-ARM8E4IF MINGW64 ~/OneDrive - TKS Ingeniería y Proyectos SPA/Escritorio/introInf1erParc/marvel (main)
+$ git commit -m "primer commit"
+[main (root-commit) e25f448] primer commit
+ 3 files changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 Bruja Escarlata/Maximoff.txt
+ create mode 100644 Ironman/Tony Stark
+ create mode 100644 Spiderman/Peter Parker
+
+56991@LAPTOP-ARM8E4IF MINGW64 ~/OneDrive - TKS Ingeniería y Proyectos SPA/Escritorio/introInf1erParc/marvel (main)
+$ git remote add origin https://github.com/LuisPenia/MarvelLuisP.git
+
+56991@LAPTOP-ARM8E4IF MINGW64 ~/OneDrive - TKS Ingeniería y Proyectos SPA/Escritorio/introInf1erParc/marvel (main)
+$ git push -u origin main
+Enumerating objects: 6, done.
+Counting objects: 100% (6/6), done.
+Delta compression using up to 16 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (6/6), 435 bytes | 435.00 KiB/s, done.
+Total 6 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/LuisPenia/MarvelLuisP.git
+ * [new branch]      main -> main
+branch 'main' set up to track 'origin/main'.
+
+56991@LAPTOP-ARM8E4IF MINGW64 ~/OneDrive - TKS Ingeniería y Proyectos SPA/Escritorio/introInf1erParc/marvel (main)
